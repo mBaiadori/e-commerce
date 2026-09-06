@@ -1,0 +1,131 @@
+{
+  "project": {
+    "name": "E Commerce",
+    "description": "",
+    "version": "1.0.0",
+    "architecture_pattern": "",
+    "repository_url": "",
+    "lead": ""
+  },
+  "canvas_5w2h": {
+    "what": "",
+    "why": "",
+    "who": "",
+    "where": "",
+    "when": "",
+    "how": "",
+    "how_much": ""
+  },
+  "organization_domains": [
+    {
+      "id": "financeiro",
+      "name": "Financeiro",
+      "icon": "payments",
+      "color": "#10b981",
+      "description": "Gestão de fluxo de caixa, pagamentos, faturamento, conciliação contábil, auditoria e tesouraria.",
+      "responsibles": [
+        "@mBaiadori"
+      ],
+      "suggested_subdomains": [
+        {
+          "id": "contas-a-pagar",
+          "name": "Contas a Pagar",
+          "description": "Gestão de obrigações, pagamentos a parceiros e controle de vencimentos."
+        },
+        {
+          "id": "contas-a-receber",
+          "name": "Contas a Receber",
+          "description": "Gestão de recebíveis, régua de cobrança e conciliação bancária de entradas."
+        },
+        {
+          "id": "faturamento",
+          "name": "Faturamento & NFe",
+          "description": "Emissão de notas fiscais, apuração de impostos e conformidade fiscal."
+        },
+        {
+          "id": "tesouraria",
+          "name": "Tesouraria & Conciliação",
+          "description": "Controle de saldos bancários, liquidez diária e transferências."
+        }
+      ],
+      "subdomains": [
+        {
+          "id": "contas-a-pagar",
+          "name": "Contas a Pagar",
+          "description": "Gestão de obrigações, pagamentos a parceiros e controle de vencimentos."
+        },
+        {
+          "id": "contas-a-receber",
+          "name": "Contas a Receber",
+          "description": "Gestão de recebíveis, régua de cobrança e conciliação bancária de entradas."
+        },
+        {
+          "id": "faturamento",
+          "name": "Faturamento & NFe",
+          "description": "Emissão de notas fiscais, apuração de impostos e conformidade fiscal."
+        },
+        {
+          "id": "tesouraria",
+          "name": "Tesouraria & Conciliação",
+          "description": "Controle de saldos bancários, liquidez diária e transferências."
+        }
+      ]
+    }
+  ],
+  "layers": [],
+  "tags": [
+    "architecture",
+    "backend",
+    "frontend",
+    "api",
+    "database",
+    "security"
+  ],
+  "statuses": [
+    {
+      "key": "draft",
+      "label": "DRAFT (Rascunho)",
+      "badge": "badge-neutral"
+    },
+    {
+      "key": "in_review",
+      "label": "IN_REVIEW (Em Revisão)",
+      "badge": "badge-warning"
+    },
+    {
+      "key": "approved",
+      "label": "APPROVED (Aprovado)",
+      "badge": "badge-success"
+    },
+    {
+      "key": "active",
+      "label": "ACTIVE (Ativo em Produção)",
+      "badge": "badge-primary"
+    },
+    {
+      "key": "deprecated",
+      "label": "DEPRECATED (Obsoleto)",
+      "badge": "badge-danger"
+    }
+  ],
+  "governance_rules": {
+    "require_invariants_for_tier1": false,
+    "require_dictionary_validation": false,
+    "enforce_linear_lifecycle": false,
+    "min_approvals_default": 1
+  },
+  "reviewers": [],
+  "ai_assistant_prompt": "Você é o Arquiteto de Fundação & Setup do Framework Context OS / Agentic SDLC.\nSua missão é ajudar o arquiteto e o líder técnico a preencher, refinar, estruturar e evoluir a constituição e identidade do projeto (Sobre o Projeto / Definições Estratégicas).\n\nDIRETRIZES FUNDAMENTAIS:\n1. Auxilie na redação precisa do Nome do Projeto, 'Por que fazemos?' (dores e justificativa de negócio), 'O que é o produto?' (escopo funcional e proposta de valor), 'Onde se aplica?' (canais e ecossistema), 'Quando?' (marcos e releases) e 'Como construímos?' (padrões arquiteturais e metodologia).\n2. Seja proativo em sugerir melhorias de clareza, alinhamento aos princípios de Domain-Driven Design (DDD) e consistência técnica.\n3. Forneça respostas estruturadas e textos prontos para serem aplicados nos campos correspondentes da tela.",
+  "policies": {
+    "regulators": [],
+    "laws": "",
+    "cancellation_policy": "",
+    "refund_policy": "",
+    "retention_policy": "",
+    "sla_support": "",
+    "dpo_contact": "",
+    "consent_policy": "",
+    "sensitive_data_policy": "",
+    "markdown_content": ""
+  }
+}
